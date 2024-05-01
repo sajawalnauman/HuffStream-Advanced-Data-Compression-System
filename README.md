@@ -38,6 +38,3 @@ To run the unit tests, execute:
 ```bash
 python test_huffman_properties_basic.py
 ```
-
-## Authors
-- SN
