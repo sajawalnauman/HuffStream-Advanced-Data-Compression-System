@@ -12,13 +12,6 @@ settings.register_profile("norand", settings(derandomize=True, max_examples=200)
 settings.load_profile("norand")
 
 
-# === Test Byte Utilities ===
-# Technically, these utilities are given to you in the starter code, so these
-# first 3 tests below are just intended as a sanity check to make sure that you
-# did not modify these methods and are therefore using them incorrectly.
-# You will not be submitting utils.py anyway, so these first three tests are
-# solely for your own benefit, as a sanity check.
-
 @given(integers(0, 255))
 def test_byte_to_bits(b: int) -> None:
     """ Test that byte_to_bits produces binary strings of length 8."""
